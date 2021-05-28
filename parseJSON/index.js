@@ -1,5 +1,5 @@
-import toDate from '../toDate/index.ts.js'
-import requiredArgs from '../_lib/requiredArgs/index.ts.js'
+import toDate from '../toDate/index.ts'
+import requiredArgs from '../_lib/requiredArgs/index.ts'
 
 /**
  * @name parseJSON
