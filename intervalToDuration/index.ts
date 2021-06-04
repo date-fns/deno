@@ -9,6 +9,7 @@ import isValid from '../isValid/index.js'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
 import toDate from '../toDate/index.ts'
 import sub from '../sub/index.js'
+import { Interval, Duration } from '../types.ts'
 
 /**
  * @name intervalToDuration

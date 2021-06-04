@@ -1,7 +1,7 @@
 import requiredArgs from '../_lib/requiredArgs/index.ts'
-import getDay from '../getDay.js'
-import addDays from '../addDays.js'
-import toDate from '../toDate.js'
+import getDay from '../getDay/index.ts'
+import addDays from '../addDays/index.ts'
+import toDate from '../toDate/index.ts'
 import { Day } from '../types.ts'
 
 const baseMap = [7, 6, 5, 4, 3, 2, 1]

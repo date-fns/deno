@@ -2,6 +2,7 @@ import eachDayOfInterval from '../eachDayOfInterval/index.ts'
 import isSunday from '../isSunday/index.ts'
 import isWeekend from '../isWeekend/index.ts'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
+import { Interval } from '../types.ts'
 
 /**
  * @name eachWeekendOfInterval

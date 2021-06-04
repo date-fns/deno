@@ -2,6 +2,7 @@ import addQuarters from '../addQuarters/index.ts'
 import startOfQuarter from '../startOfQuarter/index.ts'
 import toDate from '../toDate/index.ts'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
+import { Interval } from '../types.ts'
 
 /**
  * @name eachQuarterOfInterval
