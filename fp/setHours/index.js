@@ -1,6 +1,6 @@
 // This file is generated automatically by `scripts/build/fp.js`. Please, don't change it.
 
-import fn from '../../setHours/index.js'
+import fn from '../../setHours/index.ts'
 import convertToFP from '../_lib/convertToFP/index.js'
 
 var setHours = convertToFP(fn, 2)

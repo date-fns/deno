@@ -1,7 +1,7 @@
-import formatDistance from '../de/_lib/formatDistance/index.js'
-import formatLong from '../de/_lib/formatLong/index.js'
-import formatRelative from '../de/_lib/formatRelative/index.js'
-import match from '../de/_lib/match/index.js'
+import formatDistance from '../de/_lib/formatDistance/index.ts'
+import formatLong from '../de/_lib/formatLong/index.ts'
+import formatRelative from '../de/_lib/formatRelative/index.ts'
+import match from '../de/_lib/match/index.ts'
 // difference to 'de' locale
 import localize from './_lib/localize/index.js'
 

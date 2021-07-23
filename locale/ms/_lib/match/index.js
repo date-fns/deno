@@ -1,5 +1,5 @@
-import buildMatchFn from '../../../_lib/buildMatchFn/index.js'
-import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.js'
+import buildMatchFn from '../../../_lib/buildMatchFn/index.ts'
+import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.ts'
 
 var matchOrdinalNumberPattern = /^ke-(\d+)?/i
 var parseOrdinalNumberPattern = /petama|\d+/i

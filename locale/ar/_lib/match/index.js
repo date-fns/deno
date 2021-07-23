@@ -1,6 +1,6 @@
-import buildMatchFn from '../../../_lib/buildMatchFn/index.js'
+import buildMatchFn from '../../../_lib/buildMatchFn/index.ts'
 import buildParseFn from '../../../_lib/buildParseFn/index.js'
-import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.js'
+import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.ts'
 import parseDecimal from '../../../_lib/parseDecimal/index.js'
 
 var matchOrdinalNumbersPattern = /^(\d+)(th|st|nd|rd)?/i

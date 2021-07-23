@@ -1,5 +1,5 @@
-import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.js'
-import buildMatchFn from '../../../_lib/buildMatchFn/index.js'
+import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.ts'
+import buildMatchFn from '../../../_lib/buildMatchFn/index.ts'
 
 var matchOrdinalNumberPattern = /^(\d+)(ম|য়|র্থ|ষ্ঠ|শে|ই|তম)?/i
 var parseOrdinalNumberPattern = /\d+/i

@@ -1,6 +1,11 @@
 import parse from '../parse/index.js'
 import isValid from '../isValid/index.js'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
+import {
+  LocaleOptions,
+  WeekStartOptions,
+  FirstWeekContainsDateOptions,
+} from '../types.ts'
 
 /**
  * @name isMatch
@@ -294,7 +299,11 @@ import requiredArgs from '../_lib/requiredArgs/index.ts'
  * })
  * //=> true
  */
-export default function isMatch(dateString, formatString, dirtyOptions) {
+export default function isMatch(
+  dateString: string,
+  formatString: string,
+  options?: LocaleOptions & WeekStartOptions & FirstWeekContainsDateOptions
+): boolean {
   requiredArgs(2, arguments)
-  return isValid(parse(dateString, formatString, new Date(), dirtyOptions))
+  return isValid(parse(dateString, formatString, new Date(), options))
 }

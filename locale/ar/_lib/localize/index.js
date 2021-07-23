@@ -1,4 +1,4 @@
-import buildLocalizeFn from '../../../_lib/buildLocalizeFn/index.js'
+import buildLocalizeFn from '../../../_lib/buildLocalizeFn/index.ts'
 import buildLocalizeArrayFn from '../../../_lib/buildLocalizeArrayFn/index.js'
 
 var weekdayValues = {

@@ -1,5 +1,5 @@
-import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.js'
-import buildMatchFn from '../../../_lib/buildMatchFn/index.js'
+import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.ts'
+import buildMatchFn from '../../../_lib/buildMatchFn/index.ts'
 
 var matchOrdinalNumberPattern = /^(\d+)(th|st|nd|rd)?/i
 var parseOrdinalNumberPattern = /\d+/i
@@ -22,6 +22,7 @@ var parseQuarterPatterns = {
 }
 
 var matchMonthPatterns = {
+  // eslint-disable-next-line no-misleading-character-class
   narrow: /^[يفمئامئ‍ئاسۆند]/i,
   abbreviated: /^(يانۋار|فېۋىرال|مارت|ئاپرىل|ماي|ئىيۇن|ئىيول|ئاۋغۇست|سىنتەبىر|ئۆكتەبىر|نويابىر|دىكابىر)/i,
   wide: /^(يانۋار|فېۋىرال|مارت|ئاپرىل|ماي|ئىيۇن|ئىيول|ئاۋغۇست|سىنتەبىر|ئۆكتەبىر|نويابىر|دىكابىر)/i

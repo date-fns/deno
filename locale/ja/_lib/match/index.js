@@ -1,7 +1,7 @@
-import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.js'
-import buildMatchFn from '../../../_lib/buildMatchFn/index.js'
+import buildMatchPatternFn from '../../../_lib/buildMatchPatternFn/index.ts'
+import buildMatchFn from '../../../_lib/buildMatchFn/index.ts'
 
-var matchOrdinalNumberPattern = /^第?\d+(日)?(年)?/i
+var matchOrdinalNumberPattern = /^第?\d+(年|四半期|月|週|日|時|分|秒)?/i
 var parseOrdinalNumberPattern = /\d+/i
 
 var matchEraPatterns = {
