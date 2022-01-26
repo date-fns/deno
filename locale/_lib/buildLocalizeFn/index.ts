@@ -1,4 +1,4 @@
-import { Era, Quarter, Month, Day } from '../../../types.ts.ts'
+import { Era, Quarter, Month, Day } from '../../../types.ts'
 import {
   LocaleDayPeriod,
   LocalePatternWidth,

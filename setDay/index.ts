@@ -2,7 +2,7 @@ import addDays from '../addDays/index.ts'
 import toDate from '../toDate/index.ts'
 import toInteger from '../_lib/toInteger/index.ts'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
-import { LocalOptions, WeekStartOptions } from '../types.ts';
+import { LocaleOptions, WeekStartOptions } from '../types.ts';
 
 /**
  * @name setDay
@@ -38,7 +38,7 @@ import { LocalOptions, WeekStartOptions } from '../types.ts';
 export default function setDay(
     dirtyDate: Date | number,
     dirtyDay: number,
-    dirtyOptions?: WeekStartOptions & LocalOptions
+    dirtyOptions?: WeekStartOptions & LocaleOptions
 ): Date {
   requiredArgs(2, arguments)
 

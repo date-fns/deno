@@ -3,7 +3,7 @@ import type {
   BuildLocalizeFnArgCallback,
   LocalizeUnitValues,
   LocalizeUnitValuesIndex,
-} from './_lib/buildLocalizeFn.js'
+} from './_lib/buildLocalizeFn/index.ts'
 
 export interface Locale {
   code: string

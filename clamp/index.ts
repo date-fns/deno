@@ -1,6 +1,7 @@
-import max from '../max.js'
-import min from '../min.js'
+import max from '../max/index.ts'
+import min from '../min/index.ts'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
+import { Interval } from '../types.ts'
 
 /**
  * @name clamp
