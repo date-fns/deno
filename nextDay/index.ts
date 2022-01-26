@@ -1,5 +1,5 @@
-import addDays from '../addDays.js'
-import getDay from '../getDay.js'
+import addDays from '../addDays/index.ts'
+import getDay from '../getDay/index.ts'
 import { Day } from '../types.ts'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
 

@@ -1,5 +1,6 @@
 import toDate from '../toDate/index.ts'
 import requiredArgs from '../_lib/requiredArgs/index.ts'
+import { Interval } from '../types.ts'
 
 /**
  * @name areIntervalsOverlapping
